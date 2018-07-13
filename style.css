@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: lightgray;
+    font-family: Montserrat, sans-serif;
 }
 
 .container{
@@ -48,4 +49,33 @@ img{
     .container{
         grid-template-columns: 1fr;
     }
+}
+
+.container-links {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: space-around;
+    min-height: 100vh;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li {
+    padding: 2px;;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #545454;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    color: black;
 }

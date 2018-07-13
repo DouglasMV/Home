@@ -5,7 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
     <title>Home</title>
+
+    <script>
+    
+        let docs = [
+            {
+                name: "VS Code",
+                link: "https://code.visualstudio.com/docs/"
+            },
+            {
+                name: "W3 Schools",
+                link: "https://www.w3schools.com/"
+            },
+            {
+                name: "JS Microsoft",
+                link: "https://msdn.microsoft.com/pt-br/library/yek4tbz0(v=vs.94).aspx"
+            },
+            {
+                name: "JQuery",
+                link: "https://jquery.com/"
+            },
+            {
+                name: "SASS",
+                link: "http://sass-lang.com/"
+            },
+            {
+                name: "SASS Cheat Sheet",
+                link: "https://sass-cheatsheet.brunoscopelliti.com/"
+            },
+            {
+                name: "Bootstrap",
+                link: "http://getbootstrap.com/"
+            },
+            {
+                name: "Materialize CSS",
+                link: "https://materializecss.com/"
+            },
+            {
+                name: "Node JS",
+                link: "https://nodejs.org/en/docs/"
+            },
+            {
+                name: "MDN",
+                link: "https://developer.mozilla.org/pt-BR/"
+            },
+            {
+                name: "React JS",
+                link: "https://reactjs.org/docs/hello-world.html"
+            },
+            {
+                name: "React Native",
+                link: "https://facebook.github.io/react-native/docs/getting-started.html"
+            },
+            {
+                name: "GraphQL",
+                link: "https://graphql.org/learn/"
+            },
+            {
+                name: "Redux",
+                link: "https://redux.js.org/"
+            },
+            {
+                name: "Enzyme",
+                link: "http://airbnb.io/enzyme/"
+            },
+            {
+                name: "Jest",
+                link: "https://jestjs.io/docs/en/tutorial-react.html#content"
+            },
+            {
+                name: "Next JS",
+                link: "https://nextjs.org/"
+            },
+            {
+                name: "Parcel JS",
+                link: "https://parceljs.org/getting_started.html"
+            },
+            {
+                name: "FCC Guides",
+                link: "https://guide.freecodecamp.org/"
+            },
+            {
+                name: "Material Design",
+                link: "https://material.io/design/introduction/#"
+            },
+            {
+                name: "Express",
+                link: "http://expressjs.com/"
+            },
+            {
+                name: "Mongoose",
+                link: "http://mongoosejs.com/docs/guide.html"
+            },
+            {
+                name: "Helmet",
+                link: "https://github.com/helmetjs/helmet"
+            },
+            {
+                name: "BCrypt",
+                link: "https://www.npmjs.com/package/bcrypt"
+            },
+            {
+                name: "Passport JS",
+                link: "http://www.passportjs.org/"
+            },
+            {
+                name: "Pug JS",
+                link: "https://pugjs.org/api/getting-started.html"
+            },
+            {
+                name: "Tutorials Point",
+                link: "https://www.tutorialspoint.com/tutorialslibrary.htm"
+            },
+            {
+                name: "Exploring JS: Books",
+                link: "http://exploringjs.com/"
+            },
+            {
+                name: "JS Crockford Articles",
+                link: "http://crockford.com/javascript/"
+            }
+        ];
+
+        docs.sort((a, b) => a.name > b.name);
+
+        console.log(docs);
+    
+    </script>
+
 </head>
 <body>
     <div class="container">
@@ -25,7 +155,7 @@
             </a>
         </div>
         <div class="grid-item">
-            <a href="https://www.freecodecamp.org/">
+            <a href="https://guide.freecodecamp.org/">
                 <div style="background-color:#006400" class="circle"><img src="imgs/4.png" alt=""></div>
             </a>
         </div>
@@ -92,6 +222,23 @@
                 <div style="background-color:#81d1f1" class="circle"><img src="imgs/16.png" alt=""></div>
             </a>
         </div>
+    </div>
+
+    <div class="container-links">
+        <ul id="docs">
+            <li><h2>Documentations</h2></li> 
+            <script>
+                docs.forEach((item => {
+                    document.write(
+                        "<li><a target='_blank' href=" +
+                        item.link +
+                        ">" +
+                        item.name +
+                        "</a></li>"
+                    );
+                }));
+            </script>
+        </ul>
     </div>
 </body>
 </html>
