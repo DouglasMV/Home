@@ -51,19 +51,13 @@ img{
     }
 }
 
-.container-links {
-    margin: 0 auto;
-    width: 80%;
-    max-width: 800px;
-    display: grid;
-    grid-template-columns: 1fr;
-    align-content: space-around;
-    min-height: 100vh;
-    text-align: center;
+.lists {
+    max-width: 950px;
 }
 
 ul{
     list-style: none;
+    width: 100%;
 }
 
 li {
