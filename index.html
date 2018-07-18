@@ -8,227 +8,6 @@
     <link rel="shortcut icon" href="imgs/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
     <title>Home</title>
-
-    <script>
-    
-        let docs = [
-            {
-                name: "VS Code",
-                link: "https://code.visualstudio.com/docs/"
-            },
-            {
-                name: "W3 Schools",
-                link: "https://www.w3schools.com/"
-            },
-            {
-                name: "JS Microsoft",
-                link: "https://msdn.microsoft.com/pt-br/library/yek4tbz0(v=vs.94).aspx"
-            },
-            {
-                name: "JQuery",
-                link: "https://jquery.com/"
-            },
-            {
-                name: "SASS",
-                link: "http://sass-lang.com/"
-            },
-            {
-                name: "SASS Cheat Sheet",
-                link: "https://sass-cheatsheet.brunoscopelliti.com/"
-            },
-            {
-                name: "Bootstrap",
-                link: "http://getbootstrap.com/"
-            },
-            {
-                name: "Materialize CSS",
-                link: "https://materializecss.com/"
-            },
-            {
-                name: "MDN",
-                link: "https://developer.mozilla.org/pt-BR/"
-            },
-            {
-                name: "FCC Guides",
-                link: "https://guide.freecodecamp.org/"
-            },
-            {
-                name: "Material Design",
-                link: "https://material.io/design/introduction/#"
-            },
-            {
-                name: "Tutorials Point",
-                link: "https://www.tutorialspoint.com/tutorialslibrary.htm"
-            },
-            {
-                name: "Exploring JS: Books",
-                link: "http://exploringjs.com/"
-            },
-            {
-                name: "JS Crockford Articles",
-                link: "http://crockford.com/javascript/"
-            }
-        ];
-
-        let react = [
-            
-            {
-                name: "React JS",
-                link: "https://reactjs.org/docs/hello-world.html"
-            },
-            {
-                name: "React Native",
-                link: "https://facebook.github.io/react-native/docs/getting-started.html"
-            },
-            {
-                name: "GraphQL",
-                link: "https://graphql.org/learn/"
-            },
-            {
-                name: "Redux",
-                link: "https://redux.js.org/"
-            },
-            {
-                name: "Enzyme",
-                link: "http://airbnb.io/enzyme/"
-            },
-            {
-                name: "Jest",
-                link: "https://jestjs.io/docs/en/tutorial-react.html#content"
-            },
-            {
-                name: "Next JS",
-                link: "https://nextjs.org/"
-            },
-            {
-                name: "Parcel JS",
-                link: "https://parceljs.org/getting_started.html"
-            },
-            {
-                name: "Create-React-App",
-                link: "https://github.com/facebook/create-react-app"
-            },
-            {
-                name: "Babel",
-                link: "https://babeljs.io/"
-            },
-            {
-                name: "ESLint",
-                link: "https://eslint.org/"
-            },
-            {
-                name: "React Doc-Gen",
-                link: "https://github.com/reactjs/react-docgen"
-            },
-            {
-                name: "Story Book",
-                link: "https://storybook.js.org/"
-            },
-            {
-                name: "React Refetch",
-                link: "https://github.com/heroku/react-refetch"
-            }
-        ];
-
-        let nodejs = [
-            {
-                name: "Node JS",
-                link: "https://nodejs.org/en/docs/"
-            },
-            {
-                name: "Express",
-                link: "http://expressjs.com/"
-            },
-            {
-                name: "Mongoose",
-                link: "http://mongoosejs.com/docs/guide.html"
-            },
-            {
-                name: "Helmet",
-                link: "https://github.com/helmetjs/helmet"
-            },
-            {
-                name: "BCrypt",
-                link: "https://www.npmjs.com/package/bcrypt"
-            },
-            {
-                name: "Passport JS",
-                link: "http://www.passportjs.org/"
-            },
-            {
-                name: "Pug JS",
-                link: "https://pugjs.org/api/getting-started.html"
-            }
-        ];
-
-        let series = [
-            {
-                name: "Better Call Saul",
-                link: "https://www.imdb.com/title/tt3032476/episodes?season=4&ref_=ttep_ep_sn_nx"
-            },
-            {
-                name: "The Big Bang Theory",
-                link: "https://www.imdb.com/title/tt0898266/episodes?season=12&ref_=ttep_ep_sn_nx"
-            },
-            {
-                name: "Family Guy",
-                link: "https://www.imdb.com/title/tt0182576/episodes?season=17&ref_=ttep_ep_sn_nx"
-            },
-            {
-                name: "Modern Family",
-                link: "https://www.imdb.com/title/tt1442437/episodes?season=10&ref_=ttep_ep_sn_nx"
-            },
-            {
-                name: "Daredevil",
-                link: "https://www.imdb.com/title/tt3322312/episodes?season=3"
-            },
-            {
-                name: "Watchmen",
-                link: "https://www.imdb.com/title/tt7049682/episodes?season=1&ref_=tt_eps_sn_1"
-            },
-            {
-                name: "Mr. Robot",
-                link: "https://www.imdb.com/title/tt4158110/episodes?season=4"
-            },
-            {
-                name: "Big Little Lies",
-                link: "https://www.imdb.com/title/tt3920596/episodes?season=2&ref_=tt_eps_sn_2"
-            },
-            {
-                name: "Agents of S.H.I.E.L.D.",
-                link: "https://www.imdb.com/title/tt2364582/episodes?season=6&ref_=ttep_ep_sn_nx"
-            },
-            {
-                name: "True Detective",
-                link: "https://www.imdb.com/title/tt2356777/episodes?season=3&ref_=tt_eps_sn_3"
-            },
-            {
-                name: "Game of Thrones",
-                link: "https://www.imdb.com/title/tt0944947/episodes?season=8"
-            },
-            {
-                name: "Legion",
-                link: "https://www.imdb.com/title/tt5114356/episodes?season=3&ref_=ttep_ep_sn_nx"
-            },
-            {
-                name: "Fargo",
-                link: "https://www.imdb.com/title/tt2802850/episodes?season=4&ref_=tt_eps_sn_4"
-            },
-            {
-                name: "Rick and Morty",
-                link: "https://www.imdb.com/title/tt2861424/episodes?season=4"
-            }
-        ]
-
-        docs.sort((a, b) => a.name > b.name);
-        react.sort((a, b) => a.name > b.name);
-        nodejs.sort((a, b) => a.name > b.name);
-        series.sort((a, b) => a.name > b.name);
-
-        console.log(docs);
-    
-    </script>
-
 </head>
 <body>
     <div class="container">
@@ -319,61 +98,22 @@
 
     <div class="container lists">
         <ul id="docs">
-            <li><h2>Documentations</h2></li> 
-            <script>
-                docs.forEach((item => {
-                    document.write(
-                        "<li><a target='_blank' href=" +
-                        item.link +
-                        ">" +
-                        item.name +
-                        "</a></li>"
-                    );
-                }));
-            </script>
+            <li><h2>Documentations</h2></li>
         </ul>
         <ul id="react">
-            <li><h2>React</h2></li> 
-            <script>
-                react.forEach((item => {
-                    document.write(
-                        "<li><a target='_blank' href=" +
-                        item.link +
-                        ">" +
-                        item.name +
-                        "</a></li>"
-                    );
-                }));
-            </script>
+            <li><h2>React</h2></li>   
         </ul>
         <ul id="nodejs">
             <li><h2>Node</h2></li> 
-            <script>
-                nodejs.forEach((item => {
-                    document.write(
-                        "<li><a target='_blank' href=" +
-                        item.link +
-                        ">" +
-                        item.name +
-                        "</a></li>"
-                    );
-                }));
-            </script>
         </ul>
         <ul id="series">
             <li><h2>Series</h2></li> 
-            <script>
-                series.forEach((item => {
-                    document.write(
-                        "<li><a target='_blank' href=" +
-                        item.link +
-                        ">" +
-                        item.name +
-                        "</a></li>"
-                    );
-                }));
-            </script>
         </ul>
     </div>
+
+    <script src="docs.js"></script>
+    <script src="react.js"></script>
+    <script src="node.js"></script>
+    <script src="series.js"></script>
 </body>
 </html>
