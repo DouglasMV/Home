@@ -20,8 +20,8 @@ let docs = [
       link: "http://sass-lang.com/"
   },
   {
-      name: "SASS Cheat Sheet",
-      link: "https://sass-cheatsheet.brunoscopelliti.com/"
+      name: "Can I Use",
+      link: "https://caniuse.com/"
   },
   {
       name: "Bootstrap",
@@ -48,12 +48,20 @@ let docs = [
       link: "https://www.tutorialspoint.com/tutorialslibrary.htm"
   },
   {
-      name: "Exploring JS: Books",
+      name: "Exploring JS",
       link: "http://exploringjs.com/"
   },
   {
-      name: "JS Crockford Articles",
+      name: "JS Crockford",
       link: "http://crockford.com/javascript/"
+  },
+  {
+      name: "Built With",
+      link: "https://builtwith.com/"
+  },
+  {
+      name: "Heroku",
+      link: "https://devcenter.heroku.com/"
   }
 ];
 
