@@ -59,6 +59,10 @@ let react = [
   {
       name: "Gatsby JS",
       link: "https://www.gatsbyjs.org/"
+  },
+  {
+      name: "Webpack",
+      link: "https://webpack.js.org/"
   }
 ];
 
