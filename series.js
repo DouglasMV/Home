@@ -20,6 +20,10 @@ let series = [
       link: "https://www.imdb.com/title/tt3322312/episodes?season=3"
   },
   {
+    name: "True Detective",
+    link: "https://www.imdb.com/title/tt2356777/episodes?season=3&ref_=tt_eps_sn_3"
+  },
+  {
       name: "Watchmen",
       link: "https://www.imdb.com/title/tt7049682/episodes?season=1&ref_=tt_eps_sn_1"
   },
@@ -34,10 +38,6 @@ let series = [
   {
       name: "Agents of S.H.I.E.L.D.",
       link: "https://www.imdb.com/title/tt2364582/episodes?season=6&ref_=ttep_ep_sn_nx"
-  },
-  {
-      name: "True Detective",
-      link: "https://www.imdb.com/title/tt2356777/episodes?season=3&ref_=tt_eps_sn_3"
   },
   {
       name: "Game of Thrones",
@@ -57,17 +57,17 @@ let series = [
   }
 ]
 
-series.sort((a, b) => a.name > b.name);
-
 
 let uls = document.getElementById("series");
 
 series.forEach((item) => {
   let el = document.createElement('li');
   let a = document.createElement('a');
+  let text = document.createTextNode(item.name);
+
   a.target = "_blank";
   a.href = item.link;
-  let text = document.createTextNode(item.name);
+  
   a.appendChild(text);
   el.appendChild(a);
   uls.appendChild(el);
