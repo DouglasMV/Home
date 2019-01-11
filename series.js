@@ -16,10 +16,6 @@ let series = [
       link: "https://www.imdb.com/title/tt1442437/episodes?season=10&ref_=ttep_ep_sn_nx"
   },
   {
-      name: "Daredevil",
-      link: "https://www.imdb.com/title/tt3322312/episodes?season=3"
-  },
-  {
     name: "True Detective",
     link: "https://www.imdb.com/title/tt2356777/episodes?season=3&ref_=tt_eps_sn_3"
   },
