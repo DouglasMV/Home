@@ -78,9 +78,9 @@ let icons = [
     src: "13.png"
   },
   {
-    name: "Teams",
-    link: "https://teams.microsoft.com/_#/conversations/General?threadId=19:7545e5bc3d974d20807fdc83668e1083@thread.skype&ctx=channel",
-    color: "#5558af",
+    name: "Tutorials Point",
+    link: "https://www.tutorialspoint.com/tutorialslibrary.htm",
+    color: "#34a360",
     src: "14.png"
   },
   {

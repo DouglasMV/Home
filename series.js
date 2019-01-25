@@ -1,7 +1,7 @@
 let series = [
   {
       name: "Better Call Saul",
-      link: "https://www.imdb.com/title/tt3032476/episodes?season=4&ref_=ttep_ep_sn_nx"
+      link: "https://www.imdb.com/title/tt3032476/episodes?season=5"
   },
   {
       name: "The Big Bang Theory",
@@ -16,8 +16,8 @@ let series = [
       link: "https://www.imdb.com/title/tt1442437/episodes?season=10&ref_=ttep_ep_sn_nx"
   },
   {
-    name: "True Detective",
-    link: "https://www.imdb.com/title/tt2356777/episodes?season=3&ref_=tt_eps_sn_3"
+      name: "True Detective",
+      link: "https://www.imdb.com/title/tt2356777/episodes?season=3&ref_=tt_eps_sn_3"
   },
   {
       name: "Watchmen",

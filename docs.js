@@ -1,5 +1,9 @@
 let docs = [
   {
+      name: "Modern JS",
+      link: "https://javascript.info/"
+  },
+  {
       name: "VS Code",
       link: "https://code.visualstudio.com/docs/"
   },
@@ -46,10 +50,6 @@ let docs = [
   {
       name: "Tutorials Point",
       link: "https://www.tutorialspoint.com/tutorialslibrary.htm"
-  },
-  {
-      name: "Exploring JS",
-      link: "http://exploringjs.com/"
   },
   {
       name: "JS Crockford",
