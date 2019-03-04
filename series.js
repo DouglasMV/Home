@@ -1,9 +1,5 @@
 let series = [
   {
-      name: "Better Call Saul",
-      link: "https://www.imdb.com/title/tt3032476/episodes?season=5"
-  },
-  {
       name: "The Big Bang Theory",
       link: "https://www.imdb.com/title/tt0898266/episodes?season=12&ref_=ttep_ep_sn_nx"
   },
@@ -16,8 +12,12 @@ let series = [
       link: "https://www.imdb.com/title/tt1442437/episodes?season=10&ref_=ttep_ep_sn_nx"
   },
   {
-      name: "True Detective",
-      link: "https://www.imdb.com/title/tt2356777/episodes?season=3&ref_=tt_eps_sn_3"
+      name: "Game of Thrones",
+      link: "https://www.imdb.com/title/tt0944947/episodes?season=8"
+  },
+  {
+      name: "Agents of S.H.I.E.L.D.",
+      link: "https://www.imdb.com/title/tt2364582/episodes?season=6&ref_=ttep_ep_sn_nx"
   },
   {
       name: "Watchmen",
@@ -32,12 +32,8 @@ let series = [
       link: "https://www.imdb.com/title/tt3920596/episodes?season=2&ref_=tt_eps_sn_2"
   },
   {
-      name: "Agents of S.H.I.E.L.D.",
-      link: "https://www.imdb.com/title/tt2364582/episodes?season=6&ref_=ttep_ep_sn_nx"
-  },
-  {
-      name: "Game of Thrones",
-      link: "https://www.imdb.com/title/tt0944947/episodes?season=8"
+      name: "Better Call Saul",
+      link: "https://www.imdb.com/title/tt3032476/episodes?season=5"
   },
   {
       name: "Legion",
