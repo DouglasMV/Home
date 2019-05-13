@@ -1,7 +1,15 @@
 let series = [
   {
-      name: "The Big Bang Theory",
-      link: "https://www.imdb.com/title/tt0898266/episodes?season=12&ref_=ttep_ep_sn_nx"
+      name: "Agents of S.H.I.E.L.D.",
+      link: "https://www.imdb.com/title/tt2364582/episodes?season=6&ref_=ttep_ep_sn_nx"
+  },
+  {
+      name: "Big Little Lies",
+      link: "https://www.imdb.com/title/tt3920596/episodes?season=2&ref_=tt_eps_sn_2"
+  },
+  {
+      name: "Legion",
+      link: "https://www.imdb.com/title/tt5114356/episodes?season=3&ref_=ttep_ep_sn_nx"
   },
   {
       name: "Family Guy",
@@ -12,14 +20,6 @@ let series = [
       link: "https://www.imdb.com/title/tt1442437/episodes?season=10&ref_=ttep_ep_sn_nx"
   },
   {
-      name: "Game of Thrones",
-      link: "https://www.imdb.com/title/tt0944947/episodes?season=8"
-  },
-  {
-      name: "Agents of S.H.I.E.L.D.",
-      link: "https://www.imdb.com/title/tt2364582/episodes?season=6&ref_=ttep_ep_sn_nx"
-  },
-  {
       name: "Watchmen",
       link: "https://www.imdb.com/title/tt7049682/episodes?season=1&ref_=tt_eps_sn_1"
   },
@@ -28,16 +28,8 @@ let series = [
       link: "https://www.imdb.com/title/tt4158110/episodes?season=4"
   },
   {
-      name: "Big Little Lies",
-      link: "https://www.imdb.com/title/tt3920596/episodes?season=2&ref_=tt_eps_sn_2"
-  },
-  {
       name: "Better Call Saul",
       link: "https://www.imdb.com/title/tt3032476/episodes?season=5"
-  },
-  {
-      name: "Legion",
-      link: "https://www.imdb.com/title/tt5114356/episodes?season=3&ref_=ttep_ep_sn_nx"
   },
   {
       name: "Fargo",
