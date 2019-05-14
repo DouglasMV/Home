@@ -39,7 +39,7 @@ let series = [
       name: "Rick and Morty",
       link: "https://www.imdb.com/title/tt2861424/episodes?season=4"
   }
-]
+];
 
 
 let uls = document.getElementById("series");
