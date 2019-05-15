@@ -1,31 +1,31 @@
 let series = [
   {
       name: "Agents of S.H.I.E.L.D.",
-      link: "https://www.imdb.com/title/tt2364582/episodes?season=6&ref_=ttep_ep_sn_nx"
+      link: "https://www.imdb.com/title/tt2364582/episodes?season=6"
   },
   {
       name: "Big Little Lies",
-      link: "https://www.imdb.com/title/tt3920596/episodes?season=2&ref_=tt_eps_sn_2"
+      link: "https://www.imdb.com/title/tt3920596/episodes?season=2"
   },
   {
       name: "Legion",
-      link: "https://www.imdb.com/title/tt5114356/episodes?season=3&ref_=ttep_ep_sn_nx"
-  },
-  {
-      name: "Family Guy",
-      link: "https://www.imdb.com/title/tt0182576/episodes?season=17&ref_=ttep_ep_sn_nx"
-  },
-  {
-      name: "Modern Family",
-      link: "https://www.imdb.com/title/tt1442437/episodes?season=10&ref_=ttep_ep_sn_nx"
+      link: "https://www.imdb.com/title/tt5114356/episodes?season=3"
   },
   {
       name: "Watchmen",
-      link: "https://www.imdb.com/title/tt7049682/episodes?season=1&ref_=tt_eps_sn_1"
+      link: "https://www.imdb.com/title/tt7049682/episodes?season=1"
   },
   {
       name: "Mr. Robot",
       link: "https://www.imdb.com/title/tt4158110/episodes?season=4"
+  },
+  {
+      name: "Family Guy",
+      link: "https://www.imdb.com/title/tt0182576/episodes?season=18"
+  },
+  {
+      name: "Modern Family",
+      link: "https://www.imdb.com/title/tt1442437/episodes?season=11"
   },
   {
       name: "Better Call Saul",
@@ -33,7 +33,7 @@ let series = [
   },
   {
       name: "Fargo",
-      link: "https://www.imdb.com/title/tt2802850/episodes?season=4&ref_=tt_eps_sn_4"
+      link: "https://www.imdb.com/title/tt2802850/episodes?season=4"
   },
   {
       name: "Rick and Morty",
