@@ -44,7 +44,7 @@ let nodejs = [
       link: "https://nemethgergely.com/"
   },
   {
-    name: "Best Patices"
+    name: "Best Patices",
     link: "https://github.com/i0natan/nodebestpractices"
   }
 ];

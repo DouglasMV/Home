@@ -28,16 +28,16 @@ let series = [
       link: "https://www.imdb.com/title/tt1442437/episodes?season=11"
   },
   {
+      name: "Rick and Morty",
+      link: "https://www.imdb.com/title/tt2861424/episodes?season=4"
+  },
+  {
       name: "Better Call Saul",
       link: "https://www.imdb.com/title/tt3032476/episodes?season=5"
   },
   {
       name: "Fargo",
       link: "https://www.imdb.com/title/tt2802850/episodes?season=4"
-  },
-  {
-      name: "Rick and Morty",
-      link: "https://www.imdb.com/title/tt2861424/episodes?season=4"
   }
 ];
 
