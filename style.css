@@ -15,6 +15,18 @@ body{
     min-height: 100vh;
 }
 
+@media screen and (max-width: 800px) {
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
+
 .grid-item{
     display: flex;
     justify-content: center;
@@ -37,18 +49,6 @@ body{
 img{
     margin: auto;
     width: 60%;
-}
-
-@media screen and (max-width: 800px) {
-    .container{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .container{
-        grid-template-columns: 1fr;
-    }
 }
 
 .list {

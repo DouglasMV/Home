@@ -96,27 +96,27 @@ let icons = [
     color: '#81d1f1',
     src: '16.png'
   }
-]
+];
 
-let main_div = document.getElementById('icons-main')
+let main_div = document.getElementById('icons-main');
 
 icons.forEach(item => {
-  let el = document.createElement('div')
-  let a = document.createElement('a')
-  let circle = document.createElement('div')
-  let img = document.createElement('img')
+  let el = document.createElement('div');
+  let a = document.createElement('a');
+  let circle = document.createElement('div');
+  let img = document.createElement('img');
 
-  el.className = 'grid-item'
-  a.target = '_blank'
-  a.href = item.link
-  circle.className = 'circle'
-  circle.style.backgroundColor = item.color
-  img.src = './imgs/' + item.src
-  img.alt = item.name
-  img.title = item.name
+  el.className = 'grid-item';
+  a.target = '_blank';
+  a.href = item.link;
+  circle.className = 'circle';
+  circle.style.backgroundColor = item.color;
+  img.src = './imgs/' + item.src;
+  img.alt = item.name;
+  img.title = item.name;
 
-  circle.append(img)
-  a.append(circle)
-  el.append(a)
-  main_div.append(el)
-})
+  circle.append(img);
+  a.append(circle);
+  el.append(a);
+  main_div.append(el);
+});
