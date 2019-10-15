@@ -175,19 +175,18 @@ let docs = [
     name: 'Best Patices',
     link: 'https://github.com/i0natan/nodebestpractices'
   }
-];
+]
 
-docs.sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1));
+docs.sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1))
 
-let ul = document.getElementById('docs');
+let ul = document.getElementById('docs')
 
 docs.forEach(item => {
-  let el = document.createElement('li');
-  let a = document.createElement('a');
-  a.target = '_blank';
-  a.href = item.link;
-  let text = document.createTextNode(item.name);
-  a.append(text);
-  el.append(a);
-  ul.append(el);
-});
+  let el = document.createElement('li')
+  let a = document.createElement('a')
+  a.setAttribute('target', '_blank')
+  a.setAttribute('href', item.link)
+  a.textContent = item.name
+  el.append(a)
+  ul.append(el)
+})
