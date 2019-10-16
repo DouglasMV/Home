@@ -82,3 +82,6 @@ ul li a {
 ul li a:hover {
     color: #000000;
 }
+a {
+  outline: none;
+}
