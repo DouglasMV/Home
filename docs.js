@@ -174,6 +174,34 @@ let docs = [
   {
     name: 'Best Patices',
     link: 'https://github.com/i0natan/nodebestpractices'
+  },
+  {
+    name: '',
+    link: 'https://webassembly.org/'
+  },
+  {
+    name: '',
+    link: 'https://www.rust-lang.org/'
+  },
+  {
+    name: '',
+    link: 'https://github.com/AssemblyScript/assemblyscript'
+  },
+  {
+    name: '',
+    link: 'https://css-tricks.com/'
+  },
+  {
+    name: '',
+    link: 'https://webdevchecklist.com/'
+  },
+  {
+    name: '',
+    link: 'https://www.scrumalliance.org/'
+  },
+  {
+    name: '',
+    link: 'https://redbooth.com/'
   }
 ]
 
