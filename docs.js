@@ -176,32 +176,36 @@ let docs = [
     link: 'https://github.com/i0natan/nodebestpractices'
   },
   {
-    name: '',
+    name: 'Web Assembly',
     link: 'https://webassembly.org/'
   },
   {
-    name: '',
+    name: 'Rust',
     link: 'https://www.rust-lang.org/'
   },
   {
-    name: '',
+    name: 'AssemblyScript',
     link: 'https://github.com/AssemblyScript/assemblyscript'
   },
   {
-    name: '',
+    name: 'CSS Tricks',
     link: 'https://css-tricks.com/'
   },
   {
-    name: '',
+    name: 'WebDev Checklist',
     link: 'https://webdevchecklist.com/'
   },
   {
-    name: '',
+    name: 'Scrum',
     link: 'https://www.scrumalliance.org/'
   },
   {
-    name: '',
+    name: 'RedBooth',
     link: 'https://redbooth.com/'
+  },
+  {
+    name: 'TypeScript',
+    link: 'https://www.typescriptlang.org/'
   }
 ]
 
