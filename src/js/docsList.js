@@ -214,5 +214,13 @@ export let docsList = [
   {
     name: 'Skill Crush',
     link: 'https://skillcrush.com/'
+  },
+  {
+    name: 'Netlify',
+    link: 'https://www.netlify.com/'
+  },
+  {
+    name: 'Styled Components',
+    link: 'https://www.styled-components.com/'
   }
 ]
