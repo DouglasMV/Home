@@ -1,4 +1,4 @@
-let icons = [
+export let iconsList = [
   {
     name: 'Yahoo',
     link: 'https://br.yahoo.com/?p=us',
@@ -97,26 +97,3 @@ let icons = [
     src: '16.png'
   }
 ]
-
-let main_div = document.getElementById('icons-main')
-
-icons.forEach(item => {
-  let el = document.createElement('div')
-  let a = document.createElement('a')
-  let circle = document.createElement('div')
-  let img = document.createElement('img')
-
-  el.className = 'grid-item'
-  a.setAttribute('target', '_blank')
-  a.setAttribute('href', item.link)
-  circle.className = 'circle'
-  circle.style.backgroundColor = item.color
-  img.setAttribute('src', './imgs/' + item.src)
-  img.setAttribute('alt', item.name)
-  img.setAttribute('title', item.name)
-
-  circle.append(img)
-  a.append(circle)
-  el.append(a)
-  main_div.append(el)
-})

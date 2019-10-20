@@ -1,4 +1,4 @@
-let docs = [
+export let docsList = [
   {
     name: 'Modern JS',
     link: 'https://javascript.info/'
@@ -97,7 +97,7 @@ let docs = [
   },
   {
     name: 'Create-React-App',
-    link: 'https://github.com/facebook/create-react-app'
+    link: 'https://create-react-app.dev/'
   },
   {
     name: 'Babel',
@@ -206,19 +206,13 @@ let docs = [
   {
     name: 'TypeScript',
     link: 'https://www.typescriptlang.org/'
+  },
+  {
+    name: 'Vue',
+    link: 'https://vuejs.org/'
+  },
+  {
+    name: 'Skill Crush',
+    link: 'https://skillcrush.com/'
   }
 ]
-
-docs.sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1))
-
-let ul = document.getElementById('docs')
-
-docs.forEach(item => {
-  let el = document.createElement('li')
-  let a = document.createElement('a')
-  a.setAttribute('target', '_blank')
-  a.setAttribute('href', item.link)
-  a.textContent = item.name
-  el.append(a)
-  ul.append(el)
-})
