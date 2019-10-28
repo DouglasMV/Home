@@ -24,7 +24,7 @@ export let iconsList = [
     src: '4.png'
   },
   {
-    name: 'VS Code',
+    name: 'Ingresso.com',
     link:
       'https://www.ingresso.com/santa-barbara-do-oeste/home/cinemas/multiplex-santa-barbara-do-oeste#!#data=20171211',
     color: '#444444',
