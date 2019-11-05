@@ -222,5 +222,17 @@ export let docsList = [
   {
     name: 'Styled Components',
     link: 'https://www.styled-components.com/'
+  },
+  {
+    name: 'AWS',
+    link: 'https://docs.aws.amazon.com/'
+  },
+  {
+    name: 'Nest JS',
+    link: 'https://docs.nestjs.com/'
+  },
+  {
+    name: 'D3',
+    link: 'https://d3js.org/'
   }
 ]
