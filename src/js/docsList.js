@@ -12,14 +12,6 @@ export let docsList = [
     link: 'https://www.w3schools.com/'
   },
   {
-    name: 'JS Microsoft',
-    link: 'https://msdn.microsoft.com/pt-br/library/yek4tbz0(v=vs.94).aspx'
-  },
-  {
-    name: 'JQuery',
-    link: 'https://jquery.com/'
-  },
-  {
     name: 'SASS',
     link: 'http://sass-lang.com/'
   },
@@ -30,10 +22,6 @@ export let docsList = [
   {
     name: 'Bootstrap',
     link: 'http://getbootstrap.com/'
-  },
-  {
-    name: 'Materialize CSS',
-    link: 'https://materializecss.com/'
   },
   {
     name: 'MDN',
@@ -50,10 +38,6 @@ export let docsList = [
   {
     name: 'Tutorials Point',
     link: 'https://www.tutorialspoint.com/tutorialslibrary.htm'
-  },
-  {
-    name: 'JS Crockford',
-    link: 'http://crockford.com/javascript/'
   },
   {
     name: 'Built With',
@@ -76,20 +60,12 @@ export let docsList = [
     link: 'https://graphql.org/learn/'
   },
   {
-    name: 'Redux',
-    link: 'https://redux.js.org/'
-  },
-  {
     name: 'Enzyme',
     link: 'http://airbnb.io/enzyme/'
   },
   {
     name: 'Jest',
     link: 'https://jestjs.io/docs/en/tutorial-react.html#content'
-  },
-  {
-    name: 'Next JS',
-    link: 'https://nextjs.org/'
   },
   {
     name: 'Parcel JS',
@@ -100,34 +76,10 @@ export let docsList = [
     link: 'https://create-react-app.dev/'
   },
   {
-    name: 'Babel',
-    link: 'https://babeljs.io/'
-  },
-  {
-    name: 'ESLint',
-    link: 'https://eslint.org/'
-  },
-  {
-    name: 'React Doc-Gen',
-    link: 'https://github.com/reactjs/react-docgen'
-  },
-  {
-    name: 'Story Book',
-    link: 'https://storybook.js.org/'
-  },
-  {
-    name: 'React Refetch',
-    link: 'https://github.com/heroku/react-refetch'
-  },
-  {
     name: 'Gatsby JS',
     link: 'https://www.gatsbyjs.org/'
   },
-  {
-    name: 'Webpack',
-    link: 'https://webpack.js.org/'
-  },
-  {
+ {
     name: 'Node JS',
     link: 'https://nodejs.org/en/docs/'
   },
@@ -151,11 +103,7 @@ export let docsList = [
     name: 'Passport JS',
     link: 'http://www.passportjs.org/'
   },
-  {
-    name: 'Pug JS',
-    link: 'https://pugjs.org/api/getting-started.html'
-  },
-  {
+ {
     name: 'Node Sec Road Map',
     link: 'https://nodesecroadmap.fyi/'
   },
@@ -176,18 +124,6 @@ export let docsList = [
     link: 'https://github.com/i0natan/nodebestpractices'
   },
   {
-    name: 'Web Assembly',
-    link: 'https://webassembly.org/'
-  },
-  {
-    name: 'Rust',
-    link: 'https://www.rust-lang.org/'
-  },
-  {
-    name: 'AssemblyScript',
-    link: 'https://github.com/AssemblyScript/assemblyscript'
-  },
-  {
     name: 'CSS Tricks',
     link: 'https://css-tricks.com/'
   },
@@ -206,10 +142,6 @@ export let docsList = [
   {
     name: 'TypeScript',
     link: 'https://www.typescriptlang.org/'
-  },
-  {
-    name: 'Vue',
-    link: 'https://vuejs.org/'
   },
   {
     name: 'Skill Crush',
