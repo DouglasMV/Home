@@ -6,9 +6,9 @@ export let iconsList = [
     src: '1.png'
   },
   {
-    name: 'Youtube',
-    link: 'https://www.youtube.com/',
-    color: '#ff0000',
+    name: 'Gatsby JS',
+    link: 'https://www.gatsbyjs.org/',
+    color: '#672D9B',
     src: '2.png'
   },
   {
@@ -18,15 +18,15 @@ export let iconsList = [
     src: '3.png'
   },
   {
-    name: 'FCC',
-    link: 'https://guide.freecodecamp.org/',
-    color: '#006400',
+    name: 'Netlify',
+    link: 'https://www.netlify.com/',
+    color: '#0A7F90',
     src: '4.png'
   },
   {
     name: 'Ingresso.com',
     link:
-      'https://www.ingresso.com/santa-barbara-do-oeste/home/cinemas/multiplex-santa-barbara-do-oeste#!#data=20171211',
+      'https://www.ingresso.com/santa-barbara-do-oeste/home/cinemas/multiplex-santa-barbara-do-oeste',
     color: '#444444',
     src: '5.png'
   },
@@ -43,9 +43,9 @@ export let iconsList = [
     src: '7.png'
   },
   {
-    name: 'JS Tutorial',
-    link: 'https://javascript.info/',
-    color: '#c8333a',
+    name: 'AWS',
+    link: 'https://aws.amazon.com/pt/#',
+    color: '#f8f8f8',
     src: '8.png'
   },
   {

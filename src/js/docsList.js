@@ -20,20 +20,12 @@ export let docsList = [
     link: 'https://caniuse.com/'
   },
   {
-    name: 'Bootstrap',
-    link: 'http://getbootstrap.com/'
-  },
-  {
     name: 'MDN',
     link: 'https://developer.mozilla.org/pt-BR/'
   },
   {
     name: 'FCC Guides',
     link: 'https://guide.freecodecamp.org/'
-  },
-  {
-    name: 'Material Design',
-    link: 'https://material.io/design/introduction/#'
   },
   {
     name: 'Tutorials Point',
@@ -68,14 +60,6 @@ export let docsList = [
     link: 'https://jestjs.io/docs/en/tutorial-react.html#content'
   },
   {
-    name: 'Parcel JS',
-    link: 'https://parceljs.org/getting_started.html'
-  },
-  {
-    name: 'Create-React-App',
-    link: 'https://create-react-app.dev/'
-  },
-  {
     name: 'Gatsby JS',
     link: 'https://www.gatsbyjs.org/'
   },
@@ -96,14 +80,6 @@ export let docsList = [
     link: 'https://github.com/helmetjs/helmet'
   },
   {
-    name: 'BCrypt',
-    link: 'https://www.npmjs.com/package/bcrypt'
-  },
-  {
-    name: 'Passport JS',
-    link: 'http://www.passportjs.org/'
-  },
- {
     name: 'Node Sec Road Map',
     link: 'https://nodesecroadmap.fyi/'
   },
@@ -120,32 +96,20 @@ export let docsList = [
     link: 'https://nemethgergely.com/'
   },
   {
-    name: 'Best Patices',
+    name: 'NodeJS Best Patices',
     link: 'https://github.com/i0natan/nodebestpractices'
+  },
+  {
+    name: 'Testing Best Patices',
+    link: 'https://github.com/goldbergyoni/javascript-testing-best-practices'
   },
   {
     name: 'CSS Tricks',
     link: 'https://css-tricks.com/'
   },
   {
-    name: 'WebDev Checklist',
-    link: 'https://webdevchecklist.com/'
-  },
-  {
-    name: 'Scrum',
-    link: 'https://www.scrumalliance.org/'
-  },
-  {
-    name: 'RedBooth',
-    link: 'https://redbooth.com/'
-  },
-  {
     name: 'TypeScript',
     link: 'https://www.typescriptlang.org/'
-  },
-  {
-    name: 'Skill Crush',
-    link: 'https://skillcrush.com/'
   },
   {
     name: 'Netlify',
@@ -158,10 +122,6 @@ export let docsList = [
   {
     name: 'AWS',
     link: 'https://docs.aws.amazon.com/'
-  },
-  {
-    name: 'Nest JS',
-    link: 'https://docs.nestjs.com/'
   },
   {
     name: 'D3',
